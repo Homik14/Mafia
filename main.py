@@ -1,6 +1,6 @@
 from telebot import TeleBot, types
 from random import choice
-import Mafia.db as db , time
+import db as db , time
 
 bot = TeleBot('7873989281:AAHmUN2s0R5LVsoqIwoM_ots_js7CTXMurU')
 
