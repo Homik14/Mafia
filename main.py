@@ -109,5 +109,14 @@ def kick(message):
     bot.polling(non_stop = True)
 
 
+
+
+@bot.message_handler(commands=['stop'])
+def stop(message):
+    global game
+    game = False
+    
+
+
 if __name__ == '__main__':
     bot.polling(non_stop = True) 
